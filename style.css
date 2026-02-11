@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #111;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero {
+  text-align: center;
+  border: 1px solid #eee;
+  padding: 30px 20px;
+  margin-bottom: 40px;
+}
+
+.label {
+  font-size: 14px;
+  color: #666;
+}
+
+.ref-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.ref-box span {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.ref-box button {
+  padding: 8px 14px;
+  border: 1px solid #111;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ref-box button:hover {
+  opacity: 0.85;
+}
+
+.note {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+.faq p {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+}
